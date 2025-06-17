@@ -7,6 +7,7 @@ import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactSection from "./components/ContactSection";
+import ScrollToTop from "./components/ScrollToTop";
 import "./i18n";
 
 function App() {
@@ -110,6 +111,9 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* Scroll to top button */}
+      <ScrollToTop />
     </div>
   );
 }
