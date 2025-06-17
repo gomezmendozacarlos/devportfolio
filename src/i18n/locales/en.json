@@ -17,5 +17,11 @@
   "yearsExperience": "5+ years developing web applications",
   "projectsCompleted": "20+ projects completed",
   "techStack": "React, TypeScript, Node.js, Python",
-  "contactMessage": "Have a project in mind? Let's talk!"
+  "contactMessage": "Have a project in mind? Let's talk!",
+  "aboutTitle": "About Me",
+  "aboutDescription": "I am a JavaScript developer with over a decade of experience, specializing in creating scalable web applications for both Front-End (React, Redux, TypeScript, Next.js) and Back-End (Express) development. My primary focus is delivering high-quality solutions, and I have successfully led teams across various sectors, always committed to innovation and the latest technological trends.",
+  "aboutSubtitle": "Full Stack Developer",
+  "experienceYears": "10+ years of experience",
+  "specialization": "JavaScript Specialist",
+  "leadership": "Team Leadership"
 } 
