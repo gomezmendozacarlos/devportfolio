@@ -7,7 +7,7 @@ const ProjectsSection: React.FC = () => {
   const { t } = useTranslation();
   const [selectedProject, setSelectedProject] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const imageBaseUrl = '/freelancesite/images/';
+  const imageBaseUrl = '/devportfolio /images/';
 
   const projects = [
     {
