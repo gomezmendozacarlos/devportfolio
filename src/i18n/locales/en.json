@@ -1,0 +1,21 @@
+{
+  "title": "Carlos Gomez Dev",
+  "welcome": "Developing Modern and Creative Applications",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "language": "Language",
+  "english": "English",
+  "spanish": "Spanish",
+  "description": "Developer with over a decade of experience in the private sector",
+  "services": "Services",
+  "portfolio": "Portfolio",
+  "getInTouch": "Get in Touch",
+  "downloadCV": "Download CV",
+  "viewProjects": "View Projects",
+  "sendMessage": "Send Message",
+  "yearsExperience": "5+ years developing web applications",
+  "projectsCompleted": "20+ projects completed",
+  "techStack": "React, TypeScript, Node.js, Python",
+  "contactMessage": "Have a project in mind? Let's talk!"
+} 
