@@ -5,6 +5,7 @@ import HamburgerButton from "./components/HamburgerButton";
 import MobileMenu from "./components/MobileMenu";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
+import ProjectsSection from "./components/ProjectsSection";
 import "./i18n";
 
 function App() {
@@ -92,6 +93,8 @@ function App() {
       <AboutSection />
 
       <ServicesSection />
+
+      <ProjectsSection />
 
       <div className="container mx-auto px-4 py-6 sm:py-8">
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12 sm:mb-16">
