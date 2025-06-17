@@ -65,13 +65,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
             ))}
           </ul>
         </nav>
-        
-        {/* Sección de contacto en el menú */}
-        <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-gray-200">
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg font-medium transition-colors">
-            {t('sendMessage')}
-          </button>
-        </div>
       </div>
     </>
   );

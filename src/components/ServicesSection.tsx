@@ -153,9 +153,11 @@ const ServicesSection: React.FC = () => {
           <p className="text-gray-600 mb-6 text-lg">
             {t('needSomething')}
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-colors text-lg shadow-lg hover:shadow-xl">
-            {t('getInTouch')}
-          </button>
+          <a href="#contact">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-colors text-lg shadow-lg hover:shadow-xl hover:cursor-pointer">
+              {t('getInTouch')}
+            </button>
+          </a>
         </div>
       </div>
     </section>
