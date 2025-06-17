@@ -6,6 +6,7 @@ import MobileMenu from "./components/MobileMenu";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import ProjectsSection from "./components/ProjectsSection";
+import ContactSection from "./components/ContactSection";
 import "./i18n";
 
 function App() {
@@ -96,52 +97,13 @@ function App() {
 
       <ProjectsSection />
 
-      <div className="container mx-auto px-4 py-6 sm:py-8">
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12 sm:mb-16">
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
-              {t("skills")}
-            </h3>
-            <p className="text-gray-600 text-sm">
-              React, TypeScript, Node.js, Python
-            </p>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
-              {t("experience")}
-            </h3>
-            <p className="text-gray-600 text-sm">
-              5+ años desarrollando aplicaciones web
-            </p>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow sm:col-span-2 lg:col-span-1">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
-              {t("portfolio")}
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Más de 20 proyectos completados
-            </p>
-          </div>
-        </section>
+      <ContactSection />
 
-        <section className="text-center bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100">
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
-            {t("getInTouch")}
-          </h3>
-          <p className="text-gray-600 mb-6 sm:mb-8 text-sm sm:text-base">
-            ¿Tienes un proyecto en mente? ¡Hablemos!
-          </p>
-          <button className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white px-8 py-3 sm:py-3 rounded-lg font-medium transition-colors text-sm sm:text-base">
-            {t("sendMessage")}
-          </button>
-        </section>
-      </div>
-
-      <footer className="mt-12 sm:mt-16 bg-gray-50 border-t border-gray-200">
+      <footer className=" bg-gray-50 border-t border-gray-200">
         <div className="container mx-auto px-4 py-6 sm:py-8">
           <div className="text-center">
             <p className="text-gray-600 text-sm sm:text-base">
-              © 2024 Carlos Gomez Dev. Todos los derechos reservados.
+              © 2025 Carlos Gomez. {t("license")}
             </p>
           </div>
         </div>

@@ -72,5 +72,15 @@
     "title": "API REST Service",
     "description": "RESTful API service with JWT authentication, automatic documentation and tests.",
     "techStack": "Express.js, PostgreSQL, JWT, Jest"
-  }
+  },
+  "contactTitle": "Contact",
+  "contactSubtitle": "Have a project in mind? Let's talk!",
+  "contactDescription": "I'm available to discuss new opportunities and interesting projects. Don't hesitate to contact me.",
+  "whatsapp": "WhatsApp",
+  "email": "Email",
+  "linkedin": "LinkedIn",
+  "contactMe": "Find Me",
+  "letsTalk": "Let's Talk!",
+  "availableFor": "Available for new projects",
+  "license": "Content licensed under the MIT License."
 } 
