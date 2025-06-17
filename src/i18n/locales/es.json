@@ -10,6 +10,7 @@
   "description": "Desarrollador con más de 10 años de experiencia en el sector privado",
   "services": "Servicios",
   "portfolio": "Portafolio",
+  "needSomething": "¿Necesitas alguno de estos servicios?",
   "getInTouch": "Ponte en Contacto",
   "downloadCV": "Descargar CV",
   "viewProjects": "Ver Proyectos",
@@ -23,5 +24,27 @@
   "aboutSubtitle": "Desarrollador Full Stack",
   "experienceYears": "10+ años de experiencia",
   "specialization": "Especializado en JavaScript",
-  "leadership": "Liderazgo de equipos"
+  "leadership": "Liderazgo de equipos",
+  "servicesTitle": "Mis Servicios",
+  "servicesSubtitle": "Soluciones digitales a medida para tu negocio",
+  "service1": {
+    "title": "Diseño Web Responsive",
+    "description": "Tu sitio visible en todos los dispositivos."
+  },
+  "service2": {
+    "title": "Apps con React",
+    "description": "Desarrollo SPA/PWA con Next.js y TypeScript."
+  },
+  "service3": {
+    "title": "WordPress",
+    "description": "Soluciones para tu emprendimiento con el CMS más usado en el mundo."
+  },
+  "service4": {
+    "title": "Firebase",
+    "description": "Solución segura y adaptable de Google en el backend."
+  },
+  "service5": {
+    "title": "Node con Express",
+    "description": "Desarrollo de tu API a la medida."
+  }
 } 
