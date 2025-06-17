@@ -1,26 +1,48 @@
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 import LanguageSwitcher from './components/LanguageSwitcher';
+import HamburgerButton from './components/HamburgerButton';
+import MobileMenu from './components/MobileMenu';
 import './i18n';
 
 function App() {
   const { t } = useTranslation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-      {/* Header - Mobile First */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
         <div className="container mx-auto px-4 py-3 sm:py-4">
           <div className="flex justify-between items-center">
+              <HamburgerButton 
+                isOpen={isMobileMenuOpen} 
+                onClick={toggleMobileMenu} 
+              />
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">
               {t('title')}
             </h1>
-            <LanguageSwitcher />
+            <div className="flex items-center gap-2">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
       </header>
       
+
+      <MobileMenu 
+        isOpen={isMobileMenuOpen} 
+        onClose={closeMobileMenu} 
+      />
+      
       <div className="container mx-auto px-4 py-6 sm:py-8">
-        {/* Hero Section - Mobile First */}
         <section className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
             {t('welcome')}
@@ -35,8 +57,7 @@ function App() {
           </div>
         </section>
         
-        {/* Navigation - Mobile First */}
-        <nav className="mb-12 sm:mb-16">
+        <nav className="hidden sm:block mb-12 sm:mb-16 transition-all duration-300">
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
             <a href="#about" className="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base md:text-lg transition-colors px-3 py-2 rounded-lg hover:bg-blue-50">
               {t('about')}
@@ -53,7 +74,6 @@ function App() {
           </div>
         </nav>
 
-        {/* Quick Info Cards - Mobile First */}
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12 sm:mb-16">
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('skills')}</h3>
@@ -69,7 +89,6 @@ function App() {
           </div>
         </section>
 
-        {/* Contact Section - Mobile First */}
         <section className="text-center bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
             {t('getInTouch')}
@@ -83,7 +102,6 @@ function App() {
         </section>
       </div>
 
-      {/* Footer - Mobile First */}
       <footer className="mt-12 sm:mt-16 bg-gray-50 border-t border-gray-200">
         <div className="container mx-auto px-4 py-6 sm:py-8">
           <div className="text-center">
