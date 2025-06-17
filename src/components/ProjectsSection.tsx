@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import ProjectModal from './ProjectModal';
 
+
 const ProjectsSection: React.FC = () => {
   const { t } = useTranslation();
   const [selectedProject, setSelectedProject] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const imageBaseUrl = '/freelancesite/images/';
 
   const projects = [
     {
@@ -13,42 +15,39 @@ const ProjectsSection: React.FC = () => {
       title: t('project1.title'),
       description: t('project1.description'),
       techStack: t('project1.techStack'),
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop',
+      image: `${imageBaseUrl}fbgconsultoria.jpg`,
       images: [
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop'
+        `${imageBaseUrl}fbgconsultoria1.png`,
+        `${imageBaseUrl}fbgconsultoria2.png`,
+        `${imageBaseUrl}fbgconsultoria3.png`
       ],
-      demoUrl: 'https://demo-ecommerce.com',
-      githubUrl: 'https://github.com/username/ecommerce-platform'
+      demoUrl: 'https://www.fbgconsultoria.com.mx',
     },
     {
       id: 2,
       title: t('project2.title'),
       description: t('project2.description'),
       techStack: t('project2.techStack'),
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=300&fit=crop',
+      image: `${imageBaseUrl}vulgartopic1.png`,
       images: [
-        'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop'
+        `'${imageBaseUrl}npm.png'`,
+        `${imageBaseUrl}vulgartopic3.png`,
+        `${imageBaseUrl}vulgartopic4.png`
       ],
-      demoUrl: 'https://task-app-demo.com',
-      githubUrl: 'https://github.com/username/task-management-app'
+      demoUrl: 'https://vulgartopic.com',
     },
     {
       id: 3,
       title: t('project3.title'),
       description: t('project3.description'),
       techStack: t('project3.techStack'),
-      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&h=300&fit=crop',
+      image: `${imageBaseUrl}npm1.png`,
       images: [
-        'https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop'
+        `${imageBaseUrl}npm2.png`,
+        `${imageBaseUrl}npm3.png`,
+        `${imageBaseUrl}npm4.png`
       ],
-      demoUrl: 'https://portfolio-demo.com',
-      githubUrl: 'https://github.com/username/portfolio-website'
+      demoUrl: 'https://noisypicturemedia.net',
     },
     {
       id: 4,
@@ -61,8 +60,8 @@ const ProjectsSection: React.FC = () => {
         'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=600&fit=crop',
         'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop'
       ],
-      demoUrl: 'https://api-docs-demo.com',
-      githubUrl: 'https://github.com/username/api-rest-service'
+      demoUrl: 'https://seleniabazar.com',
+      githubUrl: 'https://github.com/gomezmendozacarlos/'
     }
   ];
 

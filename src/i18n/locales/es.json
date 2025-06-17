@@ -50,28 +50,28 @@
   "projectsTitle": "Mis Proyectos",
   "projectsSubtitle": "Algunos de los proyectos más destacados que he desarrollado",
   "techStackLabel": "Tech Stack",
-  "demo": "Demo",
+  "demo": "Link",
   "github": "GitHub",
   "close": "Cerrar",
   "project1": {
-    "title": "E-commerce Platform",
-    "description": "Plataforma completa de comercio electrónico con carrito de compras, pagos y panel de administración.",
-    "techStack": "React, Node.js, MongoDB, Stripe"
+    "title": "FBG Consultoria",
+    "description": "Sitio web corporativo especializado en consultoría legal y bienes raíces.",
+    "techStack": "WordPress, Elementary"
   },
-  "project2": {
-    "title": "Task Management App",
-    "description": "Aplicación de gestión de tareas con colaboración en tiempo real y notificaciones push.",
-    "techStack": "Next.js, TypeScript, Firebase, Tailwind CSS"
+    "project2": {
+    "title": "Vulgar Topic Magazine",
+    "description": "Revista musical con un tema WordPress personalizado.",
+    "techStack": "Wordpress, Responsive, Custom Theme"
   },
   "project3": {
-    "title": "Portfolio Website",
-    "description": "Sitio web personal responsive con animaciones y optimizado para SEO.",
-    "techStack": "React, Framer Motion, Vite, Tailwind CSS"
+    "title": "Noisy Picture Media Portfolio",
+    "description": "Sitio reponsivo para  portafolio de fotos y videos con animaciones.",
+    "techStack": "HTML, CSS, JavaScript"
   },
   "project4": {
-    "title": "API REST Service",
-    "description": "Servicio API RESTful con autenticación JWT, documentación automática y tests.",
-    "techStack": "Express.js, PostgreSQL, JWT, Jest"
+    "title": "Selenia Bazar",
+    "description": "Landing page y CRM personalizado para inventario",
+    "techStack": "Next.js, Firebase, TypeScript"
   },
   "contactTitle": "Contacto",
   "contactSubtitle": "¿Tienes un proyecto en mente? ¡Hablemos!",

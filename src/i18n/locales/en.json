@@ -50,28 +50,28 @@
   "projectsTitle": "My Projects",
   "projectsSubtitle": "Some of the most outstanding projects I have developed",
   "techStackLabel": "Tech Stack",
-  "demo": "Demo",
+  "demo": "Link",
   "github": "GitHub",
   "close": "Close",
   "project1": {
-    "title": "E-commerce Platform",
-    "description": "Complete e-commerce platform with shopping cart, payments and admin panel.",
-    "techStack": "React, Node.js, MongoDB, Stripe"
+    "title": "FBG Consultoria",
+    "description": "Corporate website specializing in legal consulting and real estate.",
+    "techStack": "WordPress, Elementary, Responsive"
   },
   "project2": {
-    "title": "Task Management App",
-    "description": "Task management application with real-time collaboration and push notifications.",
-    "techStack": "Next.js, TypeScript, Firebase, Tailwind CSS"
+    "title": "Vulgar Topic Magazine",
+    "description": "Music Magazine with a custom WordPress theme.",
+    "techStack": "Wordpress, Responsive, Custom Theme"
   },
   "project3": {
-    "title": "Portfolio Website",
-    "description": "Responsive personal website with animations and SEO optimized.",
-    "techStack": "React, Framer Motion, Vite, Tailwind CSS"
+    "title": "Noisy Picture Media Portfolio",
+    "description": "Responsive photo and video website with animations.",
+    "techStack": "HTML, CSS, JavaScript"
   },
   "project4": {
-    "title": "API REST Service",
-    "description": "RESTful API service with JWT authentication, automatic documentation and tests.",
-    "techStack": "Express.js, PostgreSQL, JWT, Jest"
+    "title": "Selenia Bazar",
+    "description": "Landing page and custom inventory CRM",
+    "techStack": "Next.js, Firebase, TypeScript"
   },
   "contactTitle": "Contact",
   "contactSubtitle": "Have a project in mind? Let's talk!",

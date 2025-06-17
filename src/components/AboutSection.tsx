@@ -22,18 +22,7 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               {/* Placeholder for profile photo */}
               <div className="w-64 h-64 sm:w-80 sm:h-80 mx-auto bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl shadow-lg flex items-center justify-center">
-                <div className="text-center">
-                  <svg
-                    className="w-16 h-16 sm:w-20 sm:h-20 text-blue-400 mx-auto mb-4"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg>
-                  <p className="text-sm sm:text-base text-blue-600 font-medium">
-                    Tu foto aquí
-                  </p>
-                </div>
+                <img  src="/freelancesite/images/profile.png" alt="Carlos Gomez" className="w-full h-full object-cover rounded-2xl" />
               </div>
             </div>
           </div>
