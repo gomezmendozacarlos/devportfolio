@@ -57,11 +57,6 @@ function App() {
               </button>
             </a>
           </div>
-          <img
-            src="/coding.png"
-            alt="coding"
-            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 mx-auto mt-8 sm:mt-10"
-          />
         </section>
       </div>
 
