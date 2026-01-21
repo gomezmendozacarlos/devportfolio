@@ -48,7 +48,7 @@
     "description": "Custom API development tailored to your needs."
   },
   "projectsTitle": "My Projects",
-  "projectsSubtitle": "Some of the most outstanding projects I have developed",
+  "projectsSubtitle": "Some of the most outstanding public projects I have developed",
   "techStackLabel": "Tech Stack",
   "demo": "Link",
   "github": "GitHub",
@@ -69,9 +69,9 @@
     "techStack": "HTML, CSS, JavaScript"
   },
   "project4": {
-    "title": "Selenia Bazar",
-    "description": "Landing page and custom inventory CRM",
-    "techStack": "Next.js, Firebase, TypeScript"
+    "title": "Vulgar Feast",
+    "description": "Landing page for a music festival",
+    "techStack": "Tailwind, HTML, CSS, JavaScript"
   },
   "contactTitle": "Contact",
   "contactSubtitle": "Have a project in mind? Let's talk!",

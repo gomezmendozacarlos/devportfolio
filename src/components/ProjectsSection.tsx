@@ -54,15 +54,15 @@ const ProjectsSection: React.FC = () => {
       title: t('project4.title'),
       description: t('project4.description'),
       techStack: t('project4.techStack'),
-      image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop',
+      image: `${imageBaseUrl}vulgarfeast1.png`,
       images: [
-        'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=600&fit=crop',
-        'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop'
+        `${imageBaseUrl}vulgarfeast2.png`,
+        `${imageBaseUrl}vulgarfeast3.png`,
+        `${imageBaseUrl}vulgarfeast4.png`
       ],
-      demoUrl: 'https://seleniabazar.com',
-      githubUrl: 'https://github.com/gomezmendozacarlos/'
-    }
+      demoUrl: 'https://vulgarfeast.com',
+      githubUrl: 'https://github.com/gomezmendozacarlos/vulgarfeast'
+    },
   ];
 
   const handleProjectClick = (project: any) => {
