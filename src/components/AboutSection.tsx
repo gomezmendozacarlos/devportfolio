@@ -22,7 +22,7 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               {/* Placeholder for profile photo */}
               <div className="w-64 h-64 sm:w-80 sm:h-80 mx-auto bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl shadow-lg flex items-center justify-center">
-                <img  src="/devportfolio/images/profile.png" alt="Carlos Gomez" className="w-full h-full object-cover rounded-2xl" />
+                <img  src="/images/profile.png" alt="Carlos Gomez" className="w-full h-full object-cover rounded-2xl" />
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ const AboutSection: React.FC = () => {
                       LinkedIn
                     </button>
                   </a>
-                  <a href="/devportfolio/cv/carlosgomezcv.pdf" download>
+                  <a href="/cv/carlosgomezcv.pdf" download>
                     <button className="flex items-center gap-2 text-gray-800 hover:text-gray-900 px-4 py-3 rounded-lg font-medium transition-colors text-sm sm:text-base hover:cursor-pointer">
                       <svg
                         className="w-5 h-5"
