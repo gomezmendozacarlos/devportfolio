@@ -11,11 +11,6 @@ const ContactSection: React.FC = () => {
     linkedin: 'https://www.linkedin.com/in/gomezmendozacarlos/'
   };
 
-  const handleWhatsAppClick = () => {
-    const message = encodeURIComponent('Hola Carlos! Me gustaría discutir un proyecto contigo.');
-    const whatsappUrl = `https://wa.me/${contactInfo.whatsapp.replace(/\D/g, '')}?text=${message}`;
-    window.open(whatsappUrl, '_blank');
-  };
 
   const handleEmailClick = () => {
     const subject = encodeURIComponent('Consulta sobre proyecto');
